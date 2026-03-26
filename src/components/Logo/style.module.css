@@ -1,0 +1,20 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LogoLink{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    text-decoration: none;
+}
+.LogoIcon{
+    width: 8rem;
+    height: 8em;
+}
+.LogoText{
+    font-size: 8rem;
+    font-weight: bold;
+}
