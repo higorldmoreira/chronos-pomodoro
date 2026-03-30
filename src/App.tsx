@@ -5,6 +5,7 @@ import { Menu } from './components/Menu'
 
 import './style/theme.css'
 import './style/Global.css'
+import { CountDown } from './components/CountDown'
 
 
 
@@ -18,6 +19,9 @@ export default function App() {
       </Container>
       <Container>
         <Menu/>
+      </Container>
+      <Container>
+        <CountDown/>
       </Container>
   </>
 }
