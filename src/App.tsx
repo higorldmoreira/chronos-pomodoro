@@ -28,7 +28,7 @@ export default function App() {
       <Container>
         <form className='form' action="">
           <div className='formRow'>
-            <DefaultInput type='text'/>
+            <DefaultInput id='meuInput' labelText='Task' type='text'/>
           </div>
           <div className='formRow'>
             <p>Lorem ipsum dolor sit amet.</p>
