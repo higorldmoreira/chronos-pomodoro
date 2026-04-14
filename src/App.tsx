@@ -6,10 +6,12 @@ import { CountDown } from './components/CountDown'
 import { DefaultInput } from './components/DefaultInput'
 import { Cycles } from './components/Cycles'
 import { DefaultButton } from  './components/DefaultButton'
+import { Footer } from './components/Footer'
 
 import './style/theme.css'
 import './style/Global.css'
 import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
+
 
 
 
@@ -48,7 +50,9 @@ export default function App() {
             <DefaultButton icon={<StopCircleIcon />} color='red' />
           </div>
         </form>
-        
+      </Container>
+      <Container>
+        <Footer/>
       </Container>
   </>
 }
