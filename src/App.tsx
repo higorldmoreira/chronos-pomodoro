@@ -14,9 +14,6 @@ import './style/Global.css'
 import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
 
 
-
-
-
 export default function App() {
 
   return <>
