@@ -7,6 +7,7 @@ import { DefaultInput } from './components/DefaultInput'
 import { Cycles } from './components/Cycles'
 import { DefaultButton } from  './components/DefaultButton'
 import { Footer } from './components/Footer'
+import { Clock } from './components/Clock'
 
 import './style/theme.css'
 import './style/Global.css'
@@ -15,13 +16,15 @@ import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
 
 
 
-export default function App() {
 
-  console.log('App renderizou')
+export default function App() {
 
   return <>
       <Container>
         <Heading><Logo/></Heading>
+      </Container>
+      <Container>
+        <Clock/>
       </Container>
       <Container>
         <Menu/>

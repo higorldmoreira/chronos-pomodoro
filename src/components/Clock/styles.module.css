@@ -1,0 +1,46 @@
+.clockRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+.clockRow span {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+.timeZoneButton {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: var(--primary);
+  color: var(--text-over-primary);
+}
+
+.timeZoneSelect {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.6rem;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--text-default);
+  font: inherit;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.timeZoneSelect:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary-dark);
+  
+}
+
+.timeZoneSelect option {
+  background: var(--gray-900);
+  color: var(--text-default);
+}
